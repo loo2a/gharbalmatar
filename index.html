@@ -1,11 +1,84 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>موقعي الأول</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0056b3;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 5px 0;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>مرحبًا بك في موقعي!</h1>
-  <p>تم الإنشاء باستخدام GitHub Pages.</p>
+
+  <header>
+    <h1>مرحبًا بك في موقعي</h1>
+    <p>موقع بسيط باستخدام GitHub Pages</p>
+  </header>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">عن الموقع</a>
+    <a href="#">تواصل معنا</a>
+  </nav>
+
+  <main>
+    <h2>المحتوى الرئيسي</h2>
+    <p>هذا مثال بسيط لصفحة HTML يمكنك تعديلها وإضافة المحتوى الذي تريده.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 - جميع الحقوق محفوظة
+  </footer>
+
 </body>
 </html>
